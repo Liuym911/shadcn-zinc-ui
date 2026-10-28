@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shadcn Zinc 后台风格"
+  short_description: "统一 shadcn Zinc 中性灰配色、字体、间距与组件样式规范"
+  default_prompt: "使用 $shadcn-zinc-ui 将这个项目的前端统一为 shadcn Zinc 中性灰风格，保留原有业务行为。"

@@ -1,0 +1,50 @@
+/* Portable tokens: light starter default. Preserve existing user preferences.
+   Import into the target project; font loading is configured by that project. */
+:root {
+  --background: #ffffff;
+  --foreground: #09090b;
+  --card: #ffffff;
+  --card-foreground: #09090b;
+  --popover: #ffffff;
+  --popover-foreground: #09090b;
+  --primary: #18181b;
+  --primary-foreground: #fafafa;
+  --secondary: #f4f4f5;
+  --secondary-foreground: #18181b;
+  --muted: #f4f4f5;
+  --muted-foreground: #66666f;
+  --accent: #f4f4f5;
+  --accent-foreground: #18181b;
+  --destructive: #dc2626;
+  --border: #e4e4e7;
+  --input: #e4e4e7;
+  --ring: #a1a1aa;
+  --radius: .625rem;
+  --ui-radius-control: 6px;
+  --ui-radius-card: 10px;
+  --ui-radius-dialog: 12px;
+  --font-sans: 'Geist Variable', 'PingFang SC', 'Microsoft YaHei', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Use one root theme mechanism. Remove .dark when selecting data-theme=light. */
+.dark, [data-theme='dark'] {
+  --background: #09090b;
+  --foreground: #fafafa;
+  --card: #101012;
+  --card-foreground: #fafafa;
+  --popover: #18181b;
+  --popover-foreground: #fafafa;
+  --primary: #fafafa;
+  --primary-foreground: #18181b;
+  --secondary: #27272a;
+  --secondary-foreground: #fafafa;
+  --muted: #18181b;
+  --muted-foreground: #a1a1aa;
+  --accent: #27272a;
+  --accent-foreground: #fafafa;
+  --destructive: #f87171;
+  --border: #27272a;
+  --input: #3f3f46;
+  --ring: #71717a;
+  --radius: .625rem;
+}
